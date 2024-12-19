@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .centered-nav {
+    background: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px; /* Distance from the top of the page */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset the width of the nav to center */
+  }
+  
+  .centered-nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .centered-nav li {
+    margin: 0 15px;
+  }
+  
+  .centered-nav .homepage {
+    margin: 0 30px;
+  }
+  
+  .centered-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .centered-nav a:hover {
+    color: #ff9900;
+  }
+  
