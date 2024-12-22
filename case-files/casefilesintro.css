@@ -132,3 +132,53 @@ width: 100vw;
   text-align: center;
   margin-bottom: 10px;
 }
+
+.inside-murder{
+  display: flex;
+}
+
+.murder_one{
+  flex:5;
+  border: black 1px solid;
+  border-radius: 5px;
+  display:flex;
+}
+
+.murder_two{
+  flex:5;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+.image{
+  flex:5;
+}
+.image img{
+  width: 100%;
+}
+
+.case-explanation{
+  display: flex;
+  flex-direction: column;
+  margin-left:20px;
+  flex:5;
+  padding-right:20px;
+  align-items: center;
+}
+.case-explanation h3{
+  text-align: center;
+}
+
+.btn_two{
+  width:250px;
+  height: 50px;
+  color:white;
+  background: black;
+  border: black;
+  font-family: 'Special Elite';
+  font-size: 18px;
+  align-items: center;
+}
+.btn_two:hover{
+  background-color: #5e5e5e;
+  color:black
+}
