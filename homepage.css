@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
@@ -71,6 +73,11 @@ body {
     font-size: 32px;
     font-family: 'Special Elite';
   }
+  .about h2{
+    color: white;
+    font-size:28px;
+    font-family: 'Special Elite';
+  }
 
   .blackborder{
     height:30px;
@@ -115,11 +122,49 @@ body {
     z-index: 3;
     font-family: 'Special Elite';
     padding-right: 20px;
+    align-content: center;
   }
   .howdoesitwork-right h1{
+    font-size:32px;
+  }
+  .howdoesitwork-right h2{
     font-size:24px;
+    text-align: center;
+    margin-top:20px;
   }
 
+
+  footer{
+    height:200px;
+    width:100vw;
+    background: linear-gradient(to bottom, #530809, black);
+    color:white;
+    text-align: center;
+    margin:0;
+    display: flex;           /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  flex-direction: column;
+  font-family: 'Special Elite';
+  }
+  
+  footer p{
+    font-size: 24px;
+    margin:5px;
+  }
+
+  footer a {
+    color: white;                /* Link color */
+    text-decoration: underline;       /* Remove underline */
+    margin: 0 15px;              /* Space between links */
+  }
+
+  footer .links{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin:10px;
+  }
 
  /*.special-elite-regular {
   font-family: "Special Elite", serif;
