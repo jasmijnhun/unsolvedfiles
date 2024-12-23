@@ -125,6 +125,8 @@ width: 100vw;
     font-family: 'Special Elite';
     color:white;
     margin:10px;
+    margin-right:20px;
+    
 }
 .case-details h2{
   font-size:24px;
@@ -135,25 +137,42 @@ width: 100vw;
 
 .inside-murder{
   display: flex;
+  flex-wrap: wrap;
 }
 
-.murder_one{
-  flex:5;
-  border: black 1px solid;
-  border-radius: 5px;
-  display:flex;
+.inside-missing{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.murder_two{
-  flex:5;
-  border: black 1px solid;
-  border-radius: 5px;
+.murder_one,
+.murder_two {
+    flex: 1 1 calc(50% - 20px); /* Take 50% of the container width minus gap */
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.missing_one, .missing_two{
+    flex: 1 1 calc(50% - 20px);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color:white;
 }
 .image{
   flex:5;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .image img{
   width: 100%;
+  background-size: contain;
+  border-radius: 8px;
 }
 
 .case-explanation{
