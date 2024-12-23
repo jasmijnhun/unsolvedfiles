@@ -119,7 +119,7 @@ width: 100vw;
 .case-details {
     display: block; /* Show the case details when not hidden */
     padding: 20px;
-    background-color: #591010;
+    background-color: #701c1a;
     border: 1px solid black;
     border-radius: 8px;
     font-family: 'Special Elite';
@@ -145,6 +145,11 @@ width: 100vw;
   flex-wrap: wrap;
 }
 
+.inside-theft{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .murder_one,
 .murder_two {
     flex: 1 1 calc(50% - 20px); /* Take 50% of the container width minus gap */
@@ -155,7 +160,8 @@ width: 100vw;
     color: white;
 }
 
-.missing_one, .missing_two{
+.missing_one, 
+.missing_two{
     flex: 1 1 calc(50% - 20px);
     display: flex;
     border: 1px solid black;
@@ -163,6 +169,17 @@ width: 100vw;
     padding: 10px;
     color:white;
 }
+
+.theft_one,
+.theft_two{
+  flex: 1 1 calc(50% - 20px);
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    color:white;
+}
+
 .image{
   flex:5;
   align-items: center;
